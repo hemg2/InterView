@@ -7,23 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63A1D2802930885700DC5626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D27F2930885700DC5626 /* AppDelegate.swift */; };
-		63A1D2822930885700DC5626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D2812930885700DC5626 /* SceneDelegate.swift */; };
-		63A1D2842930885700DC5626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D2832930885700DC5626 /* ViewController.swift */; };
-		63A1D2872930885700DC5626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A1D2852930885700DC5626 /* Main.storyboard */; };
-		63A1D2892930885900DC5626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A1D2882930885900DC5626 /* Assets.xcassets */; };
-		63A1D28C2930885900DC5626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A1D28A2930885900DC5626 /* LaunchScreen.storyboard */; };
+		63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */; };
+		63A1D29A293088DC00DC5626 /* 앱의 생명주기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */; };
+		63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D29B2930891000DC5626 /* 해쉬.swift */; };
+		63A1D29E2930892000DC5626 /* OOP란?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D29D2930892000DC5626 /* OOP란?.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63A1D27C2930885700DC5626 /* Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63A1D27F2930885700DC5626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63A1D2812930885700DC5626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63A1D2832930885700DC5626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63A1D2862930885700DC5626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63A1D2882930885900DC5626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63A1D28B2930885900DC5626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63A1D28D2930885900DC5626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "객체지향프로그래밍.swift"; sourceTree = "<group>"; };
+		63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "앱의 생명주기.swift"; sourceTree = "<group>"; };
+		63A1D29B2930891000DC5626 /* 해쉬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해쉬.swift"; sourceTree = "<group>"; };
+		63A1D29D2930892000DC5626 /* OOP란?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OOP란?.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +51,36 @@
 		63A1D27E2930885700DC5626 /* Interview */ = {
 			isa = PBXGroup;
 			children = (
-				63A1D27F2930885700DC5626 /* AppDelegate.swift */,
-				63A1D2812930885700DC5626 /* SceneDelegate.swift */,
-				63A1D2832930885700DC5626 /* ViewController.swift */,
-				63A1D2852930885700DC5626 /* Main.storyboard */,
-				63A1D2882930885900DC5626 /* Assets.xcassets */,
-				63A1D28A2930885900DC5626 /* LaunchScreen.storyboard */,
-				63A1D28D2930885900DC5626 /* Info.plist */,
+				63A1D2942930888B00DC5626 /* CS */,
+				63A1D2932930888100DC5626 /* iOS */,
+				63A1D2952930889600DC5626 /* Algorithm */,
 			);
 			path = Interview;
+			sourceTree = "<group>";
+		};
+		63A1D2932930888100DC5626 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		63A1D2942930888B00DC5626 /* CS */ = {
+			isa = PBXGroup;
+			children = (
+				63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */,
+				63A1D29D2930892000DC5626 /* OOP란?.swift */,
+			);
+			path = CS;
+			sourceTree = "<group>";
+		};
+		63A1D2952930889600DC5626 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				63A1D29B2930891000DC5626 /* 해쉬.swift */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +115,7 @@
 				TargetAttributes = {
 					63A1D27B2930885700DC5626 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,9 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A1D28C2930885900DC5626 /* LaunchScreen.storyboard in Resources */,
-				63A1D2892930885900DC5626 /* Assets.xcassets in Resources */,
-				63A1D2872930885700DC5626 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A1D2842930885700DC5626 /* ViewController.swift in Sources */,
-				63A1D2802930885700DC5626 /* AppDelegate.swift in Sources */,
-				63A1D2822930885700DC5626 /* SceneDelegate.swift in Sources */,
+				63A1D29A293088DC00DC5626 /* 앱의 생명주기.swift in Sources */,
+				63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */,
+				63A1D29E2930892000DC5626 /* OOP란?.swift in Sources */,
+				63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		63A1D2852930885700DC5626 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63A1D2862930885700DC5626 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		63A1D28A2930885900DC5626 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63A1D28B2930885900DC5626 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		63A1D28E2930885900DC5626 /* Debug */ = {
@@ -285,6 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,6 +299,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.hemg2.Interview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Interview/CS/Interview-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.hemg2.Interview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Interview/CS/Interview-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
