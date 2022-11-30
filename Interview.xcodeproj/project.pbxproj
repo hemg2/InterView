@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630C2B3D2937989E0068314E /* 뷰의 생명주기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C2B3C2937989E0068314E /* 뷰의 생명주기.swift */; };
 		63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */; };
 		63A1D29A293088DC00DC5626 /* 앱의 생명주기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */; };
 		63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D29B2930891000DC5626 /* 해쉬.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630C2B3C2937989E0068314E /* 뷰의 생명주기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "뷰의 생명주기.swift"; sourceTree = "<group>"; };
 		63A1D27C2930885700DC5626 /* Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "객체지향프로그래밍.swift"; sourceTree = "<group>"; };
 		63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "앱의 생명주기.swift"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */,
+				630C2B3C2937989E0068314E /* 뷰의 생명주기.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				63A1D29A293088DC00DC5626 /* 앱의 생명주기.swift in Sources */,
 				63EAAC8E29321FF300CB2396 /* REST API.swift in Sources */,
+				630C2B3D2937989E0068314E /* 뷰의 생명주기.swift in Sources */,
 				63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */,
 				63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */,
 			);
