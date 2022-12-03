@@ -12,9 +12,9 @@
 		630C2B43293888DE0068314E /* git.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C2B42293888DE0068314E /* git.swift */; };
 		630C2B46293890100068314E /* CS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C2B45293890100068314E /* CS.swift */; };
 		630C2B4829389B690068314E /* MVC, MVP, MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C2B4729389B690068314E /* MVC, MVP, MVVM.swift */; };
+		630C2B4C293B934B0068314E /* Class vs Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C2B4B293B934B0068314E /* Class vs Struct.swift */; };
 		63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */; };
 		63A1D29A293088DC00DC5626 /* 앱의 생명주기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */; };
-		63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1D29B2930891000DC5626 /* 해쉬.swift */; };
 		63EAAC8E29321FF300CB2396 /* REST API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAC8D29321FF300CB2396 /* REST API.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +24,10 @@
 		630C2B42293888DE0068314E /* git.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git.swift; sourceTree = "<group>"; };
 		630C2B45293890100068314E /* CS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS.swift; sourceTree = "<group>"; };
 		630C2B4729389B690068314E /* MVC, MVP, MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVC, MVP, MVVM.swift"; sourceTree = "<group>"; };
+		630C2B4B293B934B0068314E /* Class vs Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class vs Struct.swift"; sourceTree = "<group>"; };
 		63A1D27C2930885700DC5626 /* Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A1D297293088CA00DC5626 /* 객체지향프로그래밍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "객체지향프로그래밍.swift"; sourceTree = "<group>"; };
 		63A1D299293088DC00DC5626 /* 앱의 생명주기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "앱의 생명주기.swift"; sourceTree = "<group>"; };
-		63A1D29B2930891000DC5626 /* 해쉬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "해쉬.swift"; sourceTree = "<group>"; };
 		63EAAC8D29321FF300CB2396 /* REST API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "REST API.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +95,7 @@
 				630C2B4029387C560068314E /* 함수형 프로그래밍.swift */,
 				630C2B42293888DE0068314E /* git.swift */,
 				630C2B4729389B690068314E /* MVC, MVP, MVVM.swift */,
+				630C2B4B293B934B0068314E /* Class vs Struct.swift */,
 			);
 			path = CS;
 			sourceTree = "<group>";
@@ -102,7 +103,6 @@
 		63A1D2952930889600DC5626 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				63A1D29B2930891000DC5626 /* 해쉬.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 				63EAAC8E29321FF300CB2396 /* REST API.swift in Sources */,
 				630C2B43293888DE0068314E /* git.swift in Sources */,
 				630C2B3D2937989E0068314E /* 뷰의 생명주기.swift in Sources */,
+				630C2B4C293B934B0068314E /* Class vs Struct.swift in Sources */,
 				63A1D298293088CA00DC5626 /* 객체지향프로그래밍.swift in Sources */,
 				630C2B4129387C560068314E /* 함수형 프로그래밍.swift in Sources */,
-				63A1D29C2930891000DC5626 /* 해쉬.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
