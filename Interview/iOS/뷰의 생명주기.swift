@@ -63,6 +63,10 @@ import Foundation
  viewDidDisappear
  뷰가 사라졌다 // 뷰컨트롤러가 사라진 후 호출
 
+ 
+ viewDidUnload
+ view 가 메모리에서 해체 된 뒤 호출 됩니다.
+ 
  View Controller들이 화면에서 사라지고 나서 호출되는 메소드
  화면이 사라지고 나서 필요없어지는 (멈춰야하는) 작업들을 여기서 할 수 있다.
   
