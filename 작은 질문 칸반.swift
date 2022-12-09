@@ -41,4 +41,10 @@
  상속이후 super.func() //부모호출// 부모를 호출할경우 부모 자식 모두 호출된다.
  
  
+ 
+ 클래스스테틱
+ static은 override가 되지 않고!
+ class는 override가 된다!
+ 
+ 
  */
