@@ -27,7 +27,8 @@ import Foundation
  
  loadView
  컨트롤러가 관리하는 뷰를 만드는 역활을 합니다.
- 화면에 띄워줄 view를 만드는 메소드로 view를 만들고 메모리에 올림
+ 화면에 띄워줄 view를 만드는 메소드로
+ view를 만들고 메모리에 올림
  https://leehonghwa.github.io/blog/loadView/
  
  
